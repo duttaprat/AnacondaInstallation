@@ -22,10 +22,11 @@ After downloading the installer(`Anaconda3-2020.07-Linux-x86_64`), please make s
 
 1. Open your `Terminal` and go to the specific folder(in my case, the folder `Downloads`). Then use the following command
 
-```sh
-pratik@PRATIK-YOGA:~$ cd Downloads/    
-pratik@PRATIK-YOGA:~/Downloads$ bash Anaconda3-2020.07-Linux-x86_64
-```
+   ```sh
+   pratik@PRATIK-YOGA:~$ cd Downloads/    
+   pratik@PRATIK-YOGA:~/Downloads$ bash Anaconda3-2020.07-Linux-x86_64
+   ```
+ 
  2. You will see the following output
  
  3. Click `ENTER` and finally it prompts `yes or no`. Hit enter. It will take a few minutes to install the anaconda.
@@ -36,6 +37,6 @@ pratik@PRATIK-YOGA:~/Downloads$ bash Anaconda3-2020.07-Linux-x86_64
     ```sh
       pratik@PRATIK-YOGA:~$ conda list    
     ```
-     It will show a list of packages install through Anaconda
+     It will show a list of packages install through Anaconda. 
 
 ## How to create conda environment and run your code

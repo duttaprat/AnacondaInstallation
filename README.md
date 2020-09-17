@@ -1,7 +1,7 @@
 # A  Step to Step Guide to Install Anaconda in Ubuntu
 
 In this repository, I am going to guide the following things 
-* [How to download and install anaconda](#how-to-download-and-install-anaconda)
+* [How to download and install Anaconda](#how-to-download-and-install-anaconda)
 * [How to create conda environment and run your code](#how-to-create-conda-environment-and-run-your-code)
 
 ## How to download and install Anaconda
@@ -95,5 +95,5 @@ Conda environment nothing but a virtual environment. You can customize the envir
     (second_env)pratik@PRATIK-YOGA:~$ conda install -c conda-forge tensorflow=1.14
   ```
 
-  ## NOTE: `pip` and `conda` both are used to install packages in your local system. But to install package in any environment use `conda`.  
+  ## NOTE: `pip` and `conda` both are used to install packages in your local system. But to install package in any specific environment use `conda`.  
 

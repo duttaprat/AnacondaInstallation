@@ -52,19 +52,19 @@ After downloading the installer(`Anaconda3-2020.07-Linux-x86_64`), please make s
 The next step is to create conda environments. To know about the details of the conda environments, you can refer to its [official documentation page](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). Few basic steps for using the conda environment are follows
 
 ### Create conda environment 
-    Conda environment nothing but a virtual environment. You can customize the environment as per your requirements.
+Conda environment nothing but a virtual environment. You can customize the environment as per your requirements.
     
-    1. Suppose, you want to create a conda environment named `first_env`. Use the following command
+1. Suppose, you want to create a conda environment named `first_env`. Use the following command
     
-    ```sh 
-    pratik@PRATIK-YOGA:~$ conda create --name first_env
-    ```
+  ```sh 
+  pratik@PRATIK-YOGA:~$ conda create --name first_env
+  ```
     
-    2. Most in the cases, we need specific version of `Python`. Suppose, you need to install `Python=3.7` and the name of the environment is `second_env`, use the following command 
-    ```sh 
-    pratik@PRATIK-YOGA:~$ conda create --n second_env python=3.7
-    ```
-    ** __Note, your python version of the conda environment and your local machine can different.__
+2. Most in the cases, we need specific version of `Python`. Suppose, you need to install `Python=3.7` and the name of the environment is `second_env`, use the following command 
+   ```sh 
+   pratik@PRATIK-YOGA:~$ conda create --n second_env python=3.7
+   ```
+** __Note, your python version of the conda environment and your local machine can different.__
     
 ### Activateing the `conda` environment and run your code.
     1. You can have multiple `conda` environments. To see all the `conda` environments, use the following command 

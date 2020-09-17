@@ -22,8 +22,7 @@ After downloading the installer(`Anaconda3-2020.07-Linux-x86_64`), please make s
 
 1. Open your `Terminal` and go to the specific folder(in my case, the folder `Downloads`). Then use the following command
 
-```
-sh
+```sh
 pratik@PRATIK-YOGA:~$ cd Downloads/    
 pratik@PRATIK-YOGA:~/Downloads$ bash Anaconda3-2020.07-Linux-x86_64
 ```

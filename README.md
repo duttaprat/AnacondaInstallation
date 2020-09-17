@@ -85,4 +85,5 @@ Conda environment nothing but a virtual environment. You can customize the envir
     ```
     Now, `second_env` environment is activated. Now you can understand from your terminal only. `pratik@PRATIK-YOGA:~$` will change to `(second_env)pratik@PRATIK-YOGA:~$`
     
-3. Now you can run your code in this terminal. 
+3. Now you can run your code in this terminal. For your project, if you need any specific package with specific version, you can install install that following way
+* Install specific package: 

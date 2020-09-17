@@ -20,7 +20,7 @@ You can download the Anaconda installer either using `Terminal` or `manually fro
    ![2020-09-17](https://user-images.githubusercontent.com/29531232/93409785-43e3e800-f8b5-11ea-83fb-aac7769c7d5b.png)
 
 
-2. After clicking you will redirect to the section of the page where you can find various `Anaconda Installer`. Download specific installer for your OS. 
+2. After clicking you will redirect to the page section where you can find various `Anaconda Installer`. Download specific installer for your OS. 
 
     ![2020-09-17 (1)](https://user-images.githubusercontent.com/29531232/93409870-7db4ee80-f8b5-11ea-860e-c1115ac337a1.png)
 

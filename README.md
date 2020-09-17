@@ -6,7 +6,7 @@ In this repository, I am going to guide the following things
   * [Installlation](#installation)
 * [How to create conda environment and run your code](#how-to-create-conda-environment-and-run-your-code)
   * [Create conda environment](#create-conda-environment )
-  * [Activating `conda` environment and run your code](#activating-`conda`-environment-and-run-your-code)
+  * [Activating `conda` environment and run your code](#activating-conda-environment-and-run-your-code)
 
 
 ## How to download and install Anaconda
@@ -70,7 +70,7 @@ Conda environment nothing but a virtual environment. You can customize the envir
    ```
    ** __Note, your python version of the conda environment and your local machine can be different.__
     
-### Activating `conda` environment and run your code
+### Activating conda environment and run your code
 1. You can have multiple `conda` environments. To see all the `conda` environments, use the following command 
     ```sh 
     pratik@PRATIK-YOGA:~$ conda info --envs

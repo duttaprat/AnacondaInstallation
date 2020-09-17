@@ -33,15 +33,15 @@ After downloading the installer(`Anaconda3-2020.07-Linux-x86_64`), please make s
    pratik@PRATIK-YOGA:~/Downloads$ bash Anaconda3-2020.07-Linux-x86_64
    ```
  
- 2. You will see the following output
+2. You will see the following output
  
     ![2020-09-17 (3)](https://user-images.githubusercontent.com/29531232/93409949-a806ac00-f8b5-11ea-9276-dd8e5333580d.png)
 
- 3. Click `ENTER` and finally it prompts `yes or no`. Hit enter. It will take a few minutes to install the anaconda.
+3. Click `ENTER` and finally it prompts `yes or no`. Hit enter. It will take a few minutes to install the anaconda.
  
- 4. The installer prompts `Do you wish the installer to initialize Anaconda3 by running conda init?` Enter `“yes”`.
+4. The installer prompts `Do you wish the installer to initialize Anaconda3 by running conda init?` Enter `“yes”`.
  
- 5. **To check if Anaconda install properly, close your terminal and then reopen it. Then type** 
+5. **To check if Anaconda install properly, close your terminal and then reopen it. Then type** 
     ```sh
       pratik@PRATIK-YOGA:~$ conda list    
     ```
@@ -54,24 +54,23 @@ The next step is to create conda environments. To know about the details of the 
 ### Create conda environment 
 Conda environment nothing but a virtual environment. You can customize the environment as per your requirements.
     
-1. Suppose, you want to create a conda environment named `first_env`. Use the following command
-    
+1. Suppose, you want to create a conda environment named `first_env`. Use the following command   
   ```sh 
   pratik@PRATIK-YOGA:~$ conda create --name first_env
   ```
     
 2. Most in the cases, we need specific version of `Python`. Suppose, you need to install `Python=3.7` and the name of the environment is `second_env`, use the following command 
-   ```sh 
+   ```sh
    pratik@PRATIK-YOGA:~$ conda create --n second_env python=3.7
    ```
-** __Note, your python version of the conda environment and your local machine can different.__
+   ** __Note, your python version of the conda environment and your local machine can be different.__
     
-### Activateing the `conda` environment and run your code.
-    1. You can have multiple `conda` environments. To see all the `conda` environments, use the following command 
+### Activating the `conda` environment and run your code.
+1. You can have multiple `conda` environments. To see all the `conda` environments, use the following command 
     ```sh 
     pratik@PRATIK-YOGA:~$ conda info --envs
     ```
-    Output will be
+   __Output will be__
     ```sh
     # conda environments:                                                                                                                                                
     #                                                                                                                                                             
@@ -80,10 +79,10 @@ Conda environment nothing but a virtual environment. You can customize the envir
     second_env             /home/pratik/anaconda3/envs/second_env   
     ```
     
-    2. To use any specific `conda` environment, you need to activate it. Suppose, you need to activate `second_env` environment
+2. To use any specific `conda` environment, you need to activate it. Suppose, you need to activate `second_env` environment
     ```sh 
     pratik@PRATIK-YOGA:~$ conda activate second_env
     ```
     Now, `second_env` environment is activated. Now you can understand from your terminal only. `pratik@PRATIK-YOGA:~$` will change to `(second_env)pratik@PRATIK-YOGA:~$`
     
-    3. Now you can run your code in this terminal. 
+3. Now you can run your code in this terminal. 

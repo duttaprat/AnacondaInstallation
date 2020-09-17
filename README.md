@@ -8,14 +8,14 @@ In this repository, I am going to guide the following things
 
 ### Downlod Anaconda Installer
 
-You can download the Anaconda installer either `Terminal` or `manually from the website`. Follow the following steps to download it manullay from [Anaconda Distribution Page](https://www.anaconda.com/products/individual). 
+You can download the Anaconda installer either using `Terminal` or `manually from the website`. Follow the steps to download it manullay from [Anaconda Distribution Page](https://www.anaconda.com/products/individual). 
 
 1. Go to the [Anaconda Distribution Page](https://www.anaconda.com/products/individual#linux) and click `Download`.
 
    ![2020-09-17](https://user-images.githubusercontent.com/29531232/93409785-43e3e800-f8b5-11ea-83fb-aac7769c7d5b.png)
 
 
-2. After clicking you will redirect to the various `Anaconda Installer`. Download specific installer for your OS. 
+2. After clicking you will redirect to the section of the page where you can find various `Anaconda Installer`. Download specific installer for your OS. 
 
     ![2020-09-17 (1)](https://user-images.githubusercontent.com/29531232/93409870-7db4ee80-f8b5-11ea-860e-c1115ac337a1.png)
 
@@ -37,7 +37,7 @@ After downloading the installer(`Anaconda3-2020.07-Linux-x86_64`), please make s
  
     ![2020-09-17 (3)](https://user-images.githubusercontent.com/29531232/93409949-a806ac00-f8b5-11ea-9276-dd8e5333580d.png)
 
-3. Click `ENTER` and finally it prompts `yes or no`. Hit enter. It will take a few minutes to install the anaconda.
+3. Click `ENTER` and finally it prompts `yes or no`. Enter `yes`. It will take a few minutes to install the anaconda in your system.
  
 4. The installer prompts `Do you wish the installer to initialize Anaconda3 by running conda init?` Enter `“yes”`.
  
@@ -83,7 +83,7 @@ Conda environment nothing but a virtual environment. You can customize the envir
     ```sh 
     pratik@PRATIK-YOGA:~$ conda activate second_env
     ```
-    Now, `second_env` environment is activated. Now you can understand from your terminal only. `pratik@PRATIK-YOGA:~$` will change to `(second_env)pratik@PRATIK-YOGA:~$`
+    Now, `second_env` environment is activated. Now you can understand from your terminal only. `pratik@PRATIK-YOGA:~$` will change to `(__second_env__)pratik@PRATIK-YOGA:~$`
     
 3. Now you can run your code in this terminal. For your project, if you need to install any package, you can do that following way
   * __Install specific package:__ Suppose you need to install `tensorflow` package for you `conda` environment  

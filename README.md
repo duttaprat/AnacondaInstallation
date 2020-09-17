@@ -2,7 +2,12 @@
 
 In this repository, I am going to guide the following things 
 * [How to download and install Anaconda](#how-to-download-and-install-anaconda)
+  * [Downlod Anaconda Installer](#downlod-Anaconda-Installer)
+  * [Installlation](#installation)
 * [How to create conda environment and run your code](#how-to-create-conda-environment-and-run-your-code)
+  * [Create conda environment](#create-conda-environment )
+  * [Activating `conda` environment and run your code](#activating-`conda`-environment-and-run-your-code)
+
 
 ## How to download and install Anaconda
 
@@ -22,7 +27,7 @@ You can download the Anaconda installer either using `Terminal` or `manually fro
 
 3. `Anaconda3-2020.07-Linux-x86_64` will download.
 
-### Install Anaconda
+### Installation
 
 After downloading the installer(`Anaconda3-2020.07-Linux-x86_64`), please make sure where it is located. I put the installer in `Downloads` folder. To install, do following steps
 
@@ -65,16 +70,16 @@ Conda environment nothing but a virtual environment. You can customize the envir
    ```
    ** __Note, your python version of the conda environment and your local machine can be different.__
     
-### Activating the `conda` environment and run your code.
+### Activating `conda` environment and run your code
 1. You can have multiple `conda` environments. To see all the `conda` environments, use the following command 
     ```sh 
     pratik@PRATIK-YOGA:~$ conda info --envs
     ```
    __Output will be__
     ```sh
-    # conda environments:                                                                                                                                                
-    #                                                                                                                                                             
-    base                  */home/pratik/anaconda3  
+    # conda environments:
+    #
+    base                  */home/pratik/anaconda3 
     first_env              /home/pratik/anaconda3/envs/first_env
     second_env             /home/pratik/anaconda3/envs/second_env
     ```

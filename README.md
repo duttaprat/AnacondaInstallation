@@ -2,7 +2,7 @@
 
 In this repository, I am going to guide the following things 
 * [How to download and install anaconda](#download_install)
-* How to create conda environment and run your code
+* [How to create conda environment and run your code](#create-conda-environment)
 
 ## How to download and install anaconda
 
@@ -10,5 +10,12 @@ In this repository, I am going to guide the following things
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
+* [Getting Started](#getting-started)
+* [Getting Started](#getting-started)
+* [Getting Started](#getting-started)
+* [Getting Started](#getting-started)
+
 
 https://www.anaconda.com/products/individual
+
+## How to create conda environment and run your code

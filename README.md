@@ -26,6 +26,16 @@ After downloading the installer(`Anaconda3-2020.07-Linux-x86_64`), please make s
 pratik@PRATIK-YOGA:~$ cd Downloads/    
 pratik@PRATIK-YOGA:~/Downloads$ bash Anaconda3-2020.07-Linux-x86_64
 ```
-
+ 2. You will see the following output
+ 
+ 3. Click `ENTER` and finally it prompts `yes or no`. Hit enter. It will take a few minutes to install the anaconda.
+ 
+ 4. The installer prompts `Do you wish the installer to initialize Anaconda3 by running conda init?` Enter `“yes”`.
+ 
+ 5. To check if Anaconda install properly, close your terminal and then reopen it. Then type 
+ ```sh
+pratik@PRATIK-YOGA:~$ conda list    
+```
+It will show a list of packages install through Anaconda
 
 ## How to create conda environment and run your code

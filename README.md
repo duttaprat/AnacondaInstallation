@@ -12,12 +12,12 @@ You can download the Anaconda installer either `Terminal` or `manually from the 
 
 1. Go to the [Anaconda Distributionn Page](https://www.anaconda.com/products/individual#linux) and click `Download`.
 
-![2020-09-17](https://user-images.githubusercontent.com/29531232/93409785-43e3e800-f8b5-11ea-83fb-aac7769c7d5b.png)
+   ![2020-09-17](https://user-images.githubusercontent.com/29531232/93409785-43e3e800-f8b5-11ea-83fb-aac7769c7d5b.png)
 
 
 2. After clicking you will redirect to the various `Anaconda Installer`. Download specific installer for your OS. 
 
-![2020-09-17 (1)](https://user-images.githubusercontent.com/29531232/93409870-7db4ee80-f8b5-11ea-860e-c1115ac337a1.png)
+    ![2020-09-17 (1)](https://user-images.githubusercontent.com/29531232/93409870-7db4ee80-f8b5-11ea-860e-c1115ac337a1.png)
 
 
 3. `Anaconda3-2020.07-Linux-x86_64` will download.
@@ -35,6 +35,8 @@ After downloading the installer(`Anaconda3-2020.07-Linux-x86_64`), please make s
  
  2. You will see the following output
  
+    ![2020-09-17 (3)](https://user-images.githubusercontent.com/29531232/93409949-a806ac00-f8b5-11ea-9276-dd8e5333580d.png)
+
  3. Click `ENTER` and finally it prompts `yes or no`. Hit enter. It will take a few minutes to install the anaconda.
  
  4. The installer prompts `Do you wish the installer to initialize Anaconda3 by running conda init?` Enter `“yes”`.

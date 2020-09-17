@@ -74,9 +74,9 @@ Conda environment nothing but a virtual environment. You can customize the envir
     ```sh
     # conda environments:                                                                                                                                                
     #                                                                                                                                                             
-    base                  */home/pratik/anaconda3                                                                                                                      
-    first_env              /home/pratik/anaconda3/envs/first_env                                                                                                        
-    second_env             /home/pratik/anaconda3/envs/second_env   
+    base                  */home/pratik/anaconda3  
+    first_env              /home/pratik/anaconda3/envs/first_env
+    second_env             /home/pratik/anaconda3/envs/second_env
     ```
     
 2. To use any specific `conda` environment, you need to activate it. Suppose, you need to activate `second_env` environment
@@ -85,15 +85,15 @@ Conda environment nothing but a virtual environment. You can customize the envir
     ```
     Now, `second_env` environment is activated. Now you can understand from your terminal only. `pratik@PRATIK-YOGA:~$` will change to `(second_env)pratik@PRATIK-YOGA:~$`
     
-3. Now you can run your code in this terminal. For your project, if you need any specific package with specific version, you can install install that following way
-  * __Install specific package:__ Suppose you need to install `tensorflow` package. 
+3. Now you can run your code in this terminal. For your project, if you need to install any package, you can do that following way
+  * __Install specific package:__ Suppose you need to install `tensorflow` package for you `conda` environment  
   ```sh 
-    pratik@PRATIK-YOGA:~$ conda install -c conda-forge tensorflow
+    (second_env)pratik@PRATIK-YOGA:~$ conda install -c conda-forge tensorflow
   ```
-  * __Install specific package with specific version:__ Suppose you need to install `tensorflow 1.14` version package 
+  * __Install specific package with specific version:__ Suppose you need to install `tensorflow 1.14` version package for your `conda` environment 
   ```sh 
-    pratik@PRATIK-YOGA:~$ conda install -c conda-forge tensorflow=1.14
+    (second_env)pratik@PRATIK-YOGA:~$ conda install -c conda-forge tensorflow=1.14
   ```
 
-  ## NOTE: `pip` is 
+  ## NOTE: `pip` and `conda` both are used to install packages in your local system. But to install package in any `conda` environment use `conda`.  
 

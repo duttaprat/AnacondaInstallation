@@ -15,6 +15,7 @@ In this repository, I am going to guide the following things
 
 You can download the Anaconda installer either using `Terminal` or `manually from the website`. Follow the steps to download it manullay from [Anaconda Distribution Page](https://www.anaconda.com/products/individual). 
 
+
 1. Go to the [Anaconda Distribution Page](https://www.anaconda.com/products/individual#linux) and click `Download`.
 
    ![2020-09-17](https://user-images.githubusercontent.com/29531232/93409785-43e3e800-f8b5-11ea-83fb-aac7769c7d5b.png)

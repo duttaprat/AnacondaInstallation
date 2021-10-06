@@ -13,7 +13,7 @@ In this repository, I am going to guide the following things
 
 ### Downlod Anaconda Installer
 
-You can download the Anaconda installer either using `Terminal` or `manually from the website`. Follow the steps to download it manullay from [Anaconda Distribution Page](https://www.anaconda.com/products/individual). 
+You can download the Anaconda installer either using `Terminal` or `manually from the website`. Follow the steps to download it from [Anaconda Distribution Page](https://www.anaconda.com/products/individual). 
 
 
 1. Go to the [Anaconda Distribution Page](https://www.anaconda.com/products/individual#linux) and click `Download`.
@@ -25,7 +25,9 @@ You can download the Anaconda installer either using `Terminal` or `manually fro
    * Download specific installer by clicking the appropiate version based on your OS. 
         ![2020-09-17 (1)](https://user-images.githubusercontent.com/29531232/93409870-7db4ee80-f8b5-11ea-860e-c1115ac337a1.png)
    * Download the installer using terminal. Right click on the link of your specific version of the installer and copy the link. Then use terminal to download the installer
-      `$ wget <link copied>`  
+      ```
+      $ wget <link copied>
+      ```  
 
 
 3. `Anaconda3-2020.07-Linux-x86_64` will download.

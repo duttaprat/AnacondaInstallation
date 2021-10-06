@@ -22,7 +22,7 @@ You can download the Anaconda installer either using `Terminal` or `manually fro
 
 
 2. After clicking you will redirect to the page section where you can find various `Anaconda Installer`. Now you can download the `Anaconda Installer` using two approaches. 
-* Download specific installer for your OS. 
+   * Download specific installer for your OS. 
 
     ![2020-09-17 (1)](https://user-images.githubusercontent.com/29531232/93409870-7db4ee80-f8b5-11ea-860e-c1115ac337a1.png)
 

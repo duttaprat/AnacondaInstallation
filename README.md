@@ -105,5 +105,5 @@ Conda environment nothing but a virtual environment. You can customize the envir
     (second_env)pratik@PRATIK-YOGA:~$ conda install -c conda-forge tensorflow=1.14
   ```
 
-  ## NOTE: `pip` and `conda` both are used to install packages in your local system. But to install package in any specific environment use `conda`.  
+
 

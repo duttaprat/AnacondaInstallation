@@ -59,6 +59,9 @@ After downloading the installer(`Anaconda3-2020.07-Linux-x86_64`), please make s
       pratik@PRATIK-YOGA:~$ conda list    
     ```
      It will show a list of packages install through Anaconda. 
+    
+    * If after reopening the terminal you are not getting the conda list, follow the instructions
+    * 
 
 ## How to create conda environment and run your code
 

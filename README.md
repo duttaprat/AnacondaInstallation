@@ -60,8 +60,10 @@ After downloading the installer(`Anaconda3-2020.07-Linux-x86_64`), please make s
     ```
      It will show a list of packages install through Anaconda. 
     
-    * If after reopening the terminal you are not getting the conda list, follow the instructions
-    * 
+ * If after reopening the terminal you are not getting the conda list, follow the instructions
+    * Open `.bashrc` file using `vi ~/.bashrc`
+    * Add the line `export PATH="/home/username/anaconda3/bin:$PATH"` in the file
+    * Then execute the command `source ~/.bashrc`
 
 ## How to create conda environment and run your code
 
